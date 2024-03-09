@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  font-family: 'Creepster', cursive;
+  font-size: 3em;
+  text-shadow: 2px 2px 0px #000, 4px 4px 0px rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease;
+  flex: 1;
+}
+
+.title:hover {
+  text-shadow: 0 0 10px #fff, 0 0 15px rgba(255, 255, 255, 0.7);
+  transform: scale(1.02);
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.app-container {
+  text-align: center;
+}
+
+.calculator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
